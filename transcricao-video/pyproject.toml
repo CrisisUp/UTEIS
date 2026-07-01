@@ -1,0 +1,11 @@
+[project]
+name = "transcricao-video"
+version = "1.0.0"
+description = "Ferramenta para transcrever áudio de vídeos usando Whisper"
+requires-python = ">=3.12"
+dependencies = [
+    "openai-whisper>=20231117",
+    "moviepy>=2.2.1",
+    "torch>=2.0.0",
+    "torchaudio>=2.0.0"
+]

@@ -1,0 +1,23 @@
+2026-07-01 18:46:36 - transcricao - INFO - Carregando modelo Whisper 'base'...
+2026-07-01 18:46:37 - transcricao - INFO - Modelo carregado com sucesso!
+2026-07-01 18:46:37 - transcricao - INFO - Extraindo áudio de: C:\Users\Admin\Desktop\UTEIS\transcricao-video\videos\input\Joy.mp4
+2026-07-01 18:46:37 - transcricao - ERROR - Erro ao extrair áudio: got an unexpected keyword argument 'verbose'
+2026-07-01 18:46:37 - transcricao - ERROR - Erro na transcrição: got an unexpected keyword argument 'verbose'
+2026-07-01 18:50:24 - transcricao - INFO - Carregando modelo Whisper 'base'...
+2026-07-01 18:50:24 - transcricao - ERROR - Erro na transcrição: 'VideoTranscriber' object has no attribute 'colors'
+2026-07-01 18:55:30 - transcricao - INFO - Carregando modelo Whisper 'base'...
+2026-07-01 18:55:30 - transcricao - INFO - Modelo carregado com sucesso!
+2026-07-01 18:55:30 - transcricao - INFO - Extraindo áudio de: C:\Users\Admin\Desktop\UTEIS\transcricao-video\videos\input\Joy.mp4
+2026-07-01 18:55:31 - transcricao - INFO - Áudio extraído para: C:\Users\Admin\AppData\Local\Temp\tmpcoh763m5.wav
+2026-07-01 18:55:31 - transcricao - INFO - Iniciando transcrição...
+2026-07-01 18:56:01 - transcricao - INFO - Transcrição concluída! (7646 caracteres)
+2026-07-01 18:56:01 - transcricao - INFO - Transcrição salva em: C:\Users\Admin\Desktop\UTEIS\transcricao-video\videos\output\Joy.mp4
+2026-07-01 18:56:01 - transcricao - INFO - Arquivo temporário removido
+2026-07-01 19:05:16 - transcricao - INFO - Carregando modelo Whisper 'base'...
+2026-07-01 19:05:16 - transcricao - INFO - Modelo carregado com sucesso!
+2026-07-01 19:05:16 - transcricao - INFO - Extraindo áudio de: C:\Users\Admin\Desktop\UTEIS\transcricao-video\videos\input\Joy.mp4
+2026-07-01 19:05:18 - transcricao - INFO - Áudio extraído para: C:\Users\Admin\AppData\Local\Temp\tmp7x2qivg1.wav
+2026-07-01 19:05:18 - transcricao - INFO - Iniciando transcrição...
+2026-07-01 19:05:47 - transcricao - INFO - Transcrição concluída! (7646 caracteres)
+2026-07-01 19:05:47 - transcricao - INFO - Transcrição salva em: C:\Users\Admin\Desktop\UTEIS\transcricao-video\videos\output\Joy.txt
+2026-07-01 19:05:47 - transcricao - INFO - Arquivo temporário removido
