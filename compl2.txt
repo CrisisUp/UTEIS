@@ -1,0 +1,309 @@
+Prompt:
+
+Preciso editar cirurgicamente um texto de aula de matemática. Faça as seguintes substituições APENAS quando as palavras forem operadores matemáticos ou notações específicas:
+
+Operadores e símbolos:
+"igual a" → "="
+"mais" → "+" (mantenha como advérbio)
+"menos" → "-" (mantenha como preposição/advérbio)
+"vezes" → "*" (mantenha como substantivo)
+"sobre" (divisão) → "/"
+"menor igual" → "≤"
+"maior igual" → "≥"
+"diferente de" → "≠"
+
+Potências e raízes:
+"x ao quadrado" → "x²", "y ao quadrado" → "y²", etc.
+"modo de z ao quadrado" → "|z|²"
+"valor absoluto de z ao quadrado" → "|z|²"
+"raiz quadrada de" → "√"
+
+Notações específicas:
+"z barra/bar/conjugado" → "z̅"
+"parte real de z" → "Re(z)"
+"parte imaginária de z" → "Im(z)"
+
+Padronização de variáveis:
+Z → z, W → w, X → x, Y → y (quando forem variáveis)
+Manter maiúsculas para conjuntos (ex: R, C)
+
+Regras importantes:
+Não altere o conteúdo, estilo ou voz do autor.
+Formate em parágrafos lógicos.
+Forneça o texto completo com as alterações e um resumo final.
+
+
+Prompt:
+
+Preciso editar cirurgicamente um texto de aula de matemática. Faça as seguintes substituições APENAS quando as palavras forem operadores matemáticos ou notações específicas:
+
+Operadores e símbolos:
+
+"igual a" → "="
+
+"mais" → "+" (mantenha como advérbio)
+
+"menos" → "-" (mantenha como preposição/advérbio)
+
+"vezes" → "*" (mantenha como substantivo)
+
+"sobre" (divisão) → "/"
+
+"menor igual" → "≤"
+
+"maior igual" → "≥"
+
+"diferente de" → "≠"
+
+Potências e raízes:
+
+"x ao quadrado" → "x²", "y ao quadrado" → "y²", etc.
+
+"modo de z ao quadrado" → "|z|²"
+
+"valor absoluto de z ao quadrado" → "|z|²"
+
+"raiz quadrada de" → "√"
+
+Notações específicas:
+
+"z barra/bar/conjugado" → "z̅"
+
+"parte real de z" → "Re(z)"
+
+"parte imaginária de z" → "Im(z)"
+
+Padronização de variáveis:
+
+Z → z, W → w, X → x, Y → y (quando forem variáveis)
+
+Manter maiúsculas para conjuntos (ex: R, C)
+
+Redução de repetições:
+
+Substitua "a gente" por alternativas como "vamos", "podemos", "temos", "sabemos", etc., quando a repetição for excessiva.
+
+Mantenha "a gente" em contextos onde o tom coloquial é intencional e necessário para o estilo didático.
+
+Mantenha "gente" como substantivo em expressões como "tem gente que".
+
+Regras importantes:
+
+Não altere o conteúdo, estilo ou voz do autor.
+
+Formate em parágrafos lógicos.
+
+Forneça o texto completo com as alterações e um resumo final.
+
+
+
+
+
+
+
+
+
+
+Vamos iniciar a nossa segunda aula.
+
+Nesta seção, vamos introduzir algumas propriedades algébricas dos números complexos. Porém, antes precisamos definir alguns conceitos, como o conceito de conjugado, que vai facilitar em muito a manipulação de algumas expressões.
+
+O conceito de conjugado de número complexo é bem simples. Vimos que um número complexo é um par de números reais que podemos escrever usando a notação de par ordenado z = (x, y) ou podemos utilizar essa outra notação, x + i*y. Só um comentário, tanto faz escrever x + i*y como x + y*i. A escolha é de vocês. Já vimos que o produto de números complexos é comutativo, então a ordem como escrevo esses termos é irrelevante.
+
+Ok, então definimos o conjugado complexo do número complexo z = x + i*y, como sendo o número complexo z̅ = x - i*y. Então tudo que você faz é trocar o +i por -i. Ok, então vamos dar continuidade.
+
+Com essa operação de conjugação, podemos simplificar algumas expressões. Antes vamos fazer alguns exemplos, verificar as seguintes expressões envolvendo a operação de conjugação.
+
+Na aula passada definimos Re(z) e Im(z). Se existe um número complexo z = x + i*y, então Re(z) = x e Im(z) = y. Agora veremos que podemos escrever essas fórmulas em termos de z e do z̅, que é o conjugado complexo de z. Existem outras notações para conjugado. Outros livros usam z*, z estrelinha. Vou me ater mais nessa notação, z̅.
+
+Verifique que podemos escrever, por exemplo:
+(a) Re(z) = (z + z̅)/2
+(b) Im(z) = (z - z̅)/(2*i)
+(c) 1/z = z̅/(z * z̅)
+
+Na aula passada, definimos a operação de divisão, e em especial vimos que 1/z = z⁻¹. Um número complexo z multiplicado por 1/z resultará em 1. Na aula passada deduzimos uma expressão para 1/z. Se z = x + i*y, 1/z = (x - i*y)/(x² + y²).
+
+Naquela ocasião falei que existe um jeito mais rápido de chegarmos a essa expressão sem ter que decorá-la. Ou sem ter que resolver nenhum sistema 2x2. E iremos ver isso com a ajuda do conjugado complexo. Então vamos ver como chegamos nessa expressão.
+
+Nossa primeira tarefa é mostrar que Re(z) = x, pode ser escrita como (z + z̅)/2. Aqui é só uma questão de efetuar esses cálculos. Vamos lá, (z + z̅) dividido por 2, vamos ver o que vai dar. Deixa eu fazer logo z + z̅. Substituindo, ficamos com z + z̅ = (x + i*y) + (x - i*y). Somando, +i*y cancela com -i*y, sobra 2x. Então dividindo todo mundo por 2, teremos (z + z̅)/2 que é x, que é Re(z). A verificação é bem simples mesmo.
+
+Da mesma forma verificamos que Im(z) = y. Novamente é só verificação rápida disso. Fazendo (z - z̅) = (x + i*y) - (x - i*y). E agora vemos que x e -x se cancelam. Fica i*y - (-i*y) que vai dar 2*i*y. Se dividir todo mundo por 2*i, encontramos y. Finalmente (z - z̅)/(2*i) = y, que é Im(z). É bem tranquilo.
+
+A última propriedade que podemos verificar é 1/z = z̅/(z * z̅). Vimos na aula passada que 1/z = (x - i*y)/(x² + y²). Então quero mostrar que 1/z pode ser escrito como z̅/(z * z̅). Vamos fazer isso aqui, vou mostrar que dá isso.
+
+Ok, então note o seguinte, que z * z̅ = (x + i*y) * (x - i*y). Aqui temos um quadrado perfeito, onde x² - (i*y)² = x² - (i² * y²). Como i² = -1, substituindo fica x² + y². Então, moral da história, mais na frente vamos ver que z * z̅ tem uma ligação com o que vamos chamar de tamanho de z, módulo de z, valor absoluto de z. Então aqui fica z * z̅ = x² + y².
+
+Ok, tomando z̅ e dividindo por z * z̅, teremos o quê? Teremos (x - i*y) em cima, que é z̅, e (x² + y²) embaixo, que é z * z̅. Portanto z̅/(z * z̅) = (x - i*y)/(x² + y²), e isso por definição é exatamente 1/z.
+
+Então uma forma bem rápida de obtermos o z⁻¹ do z é fazer o seguinte: suponhe que você quer achar o z⁻¹ de z = 1 + 2*i, por exemplo. Ou seja, quero 1/z. Como é que faço aqui? É bem tranquilo, 1/z = 1/(1 + 2*i). Então o que vou fazer? Vou multiplicar o numerador e o denominador por (1 - 2*i). Se fizer isso, não altero nada, certo? Multiplicando em cima por (1 - 2*i) e embaixo por (1 - 2*i), o que acontece? Em cima vai ficar (1 - 2*i), que já tínhamos, e embaixo é só multiplicar. De novo, vai ficar o quadrado do primeiro menos o quadrado do segundo, vai ter i² = -1, então vai ficar +. E 2² = 4. Então isso é (1 - 2*i)/5. Olha como encontramos rapidamente o z⁻¹ com esse resultado.
+
+De forma geral, a operação de conjugação nos facilita obter a divisão ou o quociente de dois números complexos. É o que estou chamando a atenção aqui. Se você quer dividir z1 por z2. Como é que definimos a divisão? Então z1/z2 foi definido da seguinte maneira. Você vai multiplicar z1 pelo z2⁻¹. Mas já sabemos escrever 1/z2 de uma forma mais simples. Se pegarmos o 1/z2 e multiplicarmos pelo z̅2 em cima e multiplicarmos pelo z̅2 em baixo não altera nada. Então posso substituir esse cara por z̅2, e embaixo vai ter z2 * z̅2. E assim rapidamente conseguimos fazer o quociente de dois números complexos.
+
+Por exemplo, um exemplo numérico. Se pegarmos z1/z2 = (1 + 2*i)/(3 + i). Como efetuamos rapidamente esse quociente? Novamente, é só multiplicar essa fração z1/z2 = (1 + 2*i)/(3 + i) por 1. Mas esse 1 é inteligente, é o conjugado z̅2/z̅2 = (3 - i)/(3 - i) = 1. E aí é só multiplicar mesmo. Em baixo calculamos o quadrado do primeiro menos o quadrado do segundo, só que i² = -1, - com - da +. Encontramos 10. Na multiplicação em cima encontramos (3 - i + 6*i - (2*i)²), sabendo que i² = -1, fica Re(z) = 5 e Im(z) = 5*i, encontramos z1/z2 = (5 + 5*i)/10. Ou z1/z2 = 1/2 + i/2. Com essa ajuda do conjugado, rapidamente encontramos o quociente de dois números complexos.
+
+No teorema 1.2.3 listamos algumas propriedades da conjugação. 
+Então por exemplo, 
+(a) o conjugado de (z + w) = z̅ + w̅. 
+(b) o conjugado de (z - w) = z̅ - w̅.
+(c) o conjugado de (z * w) = z̅ * w̅.
+(d) o conjugado de (z / w) = z̅ / w̅, desde que w ≠ 0 
+(e) o conjugado de z̅ = z.
+(f) z é real se, e somente se, z = z̅.
+(g) z é imaginário puro se, e somente se, z = -z̅.
+(h) z * z̅ = |z|².
+e assim por adiante. 
+
+Vou verificar de algumas dessas aqui e deixar o restante para vocês. 
+Então vou verificar o (c), o (e), e o (g). 
+O (c) é verificar o conjugado de (z * w) = z̅ * w̅. 
+Então é só manipulação mesmo, pessoal. Vamos lá.
+Vamos fazer o seguinte, vamos assumir que z = x + i*y, e w = u + i*v. 
+Então queremos calcular o conjugado de z * w. 
+Então por definição, o conjugado de z * w = (x + i*y) * (u + i*v). 
+E quero o conjugado disso tudo. Então primeiro multiplico, depois eu conjugo. 
+Então se multiplicarmos esses dois carinhas, dará (x*u - y*v) + i*(x*v + y*u). 
+É só multiplicar normalmente como fazemos com os números reais, distribuindo normalmente, mas a atenção aqui é lembrar que i² = -1 e fazer a substituição. Então não precisamos decorar esse produto aqui, decorar essa forma.
+
+E agora vou conjugar tudo isso aqui. Mas o que é que o conjugado faz? 
+Ele simplesmente troca o sinal de i para −i. Depois veremos o significado geométrico disso. Então então vai ficar o seguinte: (x*u - y*v) - i*(x*v + y*u). 
+Agora vou colocar os termos com u em evidência e, em seguida os termos com v. Termos com u, (x - i*y)*u e os termos com v, (-i*x - i*y)*v. Pronto, agora sim.
+Colocando o fator −i em evidência nos termos com v, ficamos com: 
+(x - i*y)*u - i*(x - i*y)*v. 
+Agora, colocando o fator comum (x - i*y) em evidência aparece (u - i*v). 
+Ora, mas isso aqui nada mais é que o conjugado de z. 
+Se eu defini lá em cima que z = x + i*y e w = u + i*v. 
+Então isso é exatamente o que queríamos verificar z̅ * w̅. Só isso.
+
+Da mesma forma, podemos verificar as outras operações da conjugação. 
+O (e) é verificar se o conjugado de z̅ = z. Seja z = x + i*y. 
+O conjugado de z é z̅ = x - i*y. Agora, aplicando o conjugado novamente, trocamos i por -i novamente. O conjugado de z̅ = x + i*y = z. Ou seja, o conjugado do conjugado é o próprio número . Bem simples, não é?.
+
+Por fim, vamos verificar as seguintes propriedades: 
+O (g) é verificar que z = -z̅ acontece se, e somente se, ele for imaginário puro.
+Vocês lembram o que é um número imaginário puro? Na aula passada, definimos que um número imaginário puro é um número complexo da forma z = i*y, 
+ou seja, Re(z) = 0 (x = 0). Vamos verificar isso agora. Seja z = x + i*y. 
+A condição z = −z̅ nos dá: x + i*y = −(x − i*y) = −x + i*y
+Igualando as partes reais e imaginárias, temos:
+Parte real: x = −x, o que implica 2*x = 0, ou seja, x = 0.
+Parte imaginária: y = y, o que é sempre verdadeiro.
+Portanto, se z = −z̅, então x = 0, e z = i*y, que é exatamente um número imaginário puro.
+
+O (f) é verificar que z é real se, e somente se, z = z̅.
+Nesse caso, x + i*y = x − i*y, o que implica y = 0, ou seja, z = x, um número real. Então, como deixei isso aqui, as demais verificações ficam como exercícios para vocês.
+
+
+
+
+
+
+
+
+Então, agora vamos tentar dar uma interpretação geométrica. Uma descrição geométrica, na verdade para os números complexos. Então, definimos um número complexo inicialmente como um par de números ordenados. A forma mais simples de você identificar esse cara é como um ponto no plano, sabe? E esse plano vamos dar um nome especial, vamos chamar ele de plano de Argan Gauss, sabe? É o plano complexo da gente. O plano complexo, o plano de Argan Gauss.
+
+Então, o que é que é o plano complexo? Bom, é o R², não das contas é o R². O eixo x, vamos chamar de eixo real. O eixo y, vamos chamar de eixo imaginário e aí existem várias notações para isso. Tem gente que chamou o eixo x, denota o eixo x assim, parte real. Escreve R, e escreve aqui no lugar de R e M. É a montação aí é vocês que escolhem a mais conveniente para vocês. Eu sempre estou usando essa daqui. Aqui a parte real, coloco R dos números real. E a parte imaginária pego R muito clico, e isso aqui seria como se ele fosse imaginário por, não sei? Então, é só uma questão de gosto mesmo.
+
+Ok, então, dado um número complexo qualquer, por exemplo w = 1 + e v, representar ele no plano complexo é só você montar a parte real e a parte imaginária, você marca esse cara como se tivesse matando ponto no R² de forma normal. Então, porque w é a mesma coisa que o v nesse caso. Então, a corda nada é como se a corda nada x do ponto fosse u e a corda nada v ponto fosse v e a corda nada y, não sei? Então, aqui um exemplo. Se você tem z = x, y, então, aqui o x, aqui o y, você marca. É um desses caras que se encontra e aí tá a localização do ponto. Não sei?
+
+Só uma título de curiosidade que vamos mais à frente dar um nome a esse carinha, perceba que a distância da origem até o ponto em questão, como isso aqui é um triângulo retângulo e esse pedaço aqui vale x e esse pedaço vale y. Então, essa distância que mais à frente vamos dar um nome para ela, pode ser calculada por o triângulo retângulo, se dá exatamente √(x² + epsom²). Aqui a pouco vamos dar um nome a esse comprimento aqui e vamos chamar isso de módulo número complexo.
+
+Então, com essa identificação geométrica, a soma de dois números complexos nada mais é que a soma vetorial. Por exemplo, se tenho o número z = x, y, y, igual a v, já vimos que soma u + v, então, perdão, soma z + w é obtido como? Somando primeiro componente, segundo com a segunda. Então fica x + u, y + v. E que foi, digamos assim, foi pensado para que essa soma, geométricamente funcionasse como a soma vetorial, a soma de vetores. É o que vou mostrar para vocês agora. O produto, talvez na próxima aula dei uma interpretação geométrica.
+
+Mas a ideia é o seguinte, tanto posso identificar o número complexo z = x + y como um ponto ou como um vetor. Temos essa identificação dupla, de pontos e vetores no R². Bom, a ideia é o seguinte, no sistema de coordenadas, deixa eu ver se tenho desenhado aqui para ficar mais fácil, tem, pra quê vou pegar aqui o tracor. Então, no meu sistema de coordenadas é que é o 0, 0. E aí tenho meu ponto, tenho um número complexo z, que excrito dessa forma. x + y. Posso associar um vetor que sai da origem até o ponto P. Aí esse vetor vou chamar de op. Tá até escrito aqui, ó, P. E da mesma forma se tiver um outro número complexo w, w = o v, posso pensar no ponto Q como sendo um ponto determinado pelo número complexo w. E posso pensar no segmento reto que vai da origem até w. Como sendo o vetor OK.
+
+Então, somar z + w, ou seja, somar esse segmento reto aqui em azul, esse vetorzinho azul, com esse vetorzinho aqui no vermelho, é somar vetores como se já já foi acostumado. Então, na regra do paralelogramo, você só faz completar e a soma é a diagonal principal desse, dessa figura. E, por consequent, a diferença desses números complexos se a soma é a diagonal principal, ou seja, essa é a diagonal principal, então, a diferença é essa diagonal secundária aqui. E aí perceba que se quiser calcular mais a frente, a distância do ponto P ao ponto Q, tudo que preciso saber é qual o tamanho desse segmentozinho que vem. Mas a frente vamos definir como calcular a distância entre dois números complexos. E vamos dizer que a distância vai ser exatamente o comprimento desse segmentozinho vermelho.
+
+Ok, então, a soma de dois números complexos geometricamente é a soma vetorial, porque foi definida assim, pessoal. Inicialmente introduzimos a soma dessa maneira. Pra que ela tivesse essa propriedade, então nada mais justo que ela tenha mesmo. Visualmente é o que estamos percebendo aqui. Vou apagar demais.
+
+Ok, então, como continuar aqui? Bom, como falei, vamos dar um nome especial pra o comprimento desse segmento de reta. E o comprimento desse vetorzinho aqui é o que sai da origem ao ponto P, que já vimos que esse cara aqui vale x e esse cara aqui vale y. Então, o comprimento desse vetorzinho é √(x² + y²), certo? Tranquilo? Vamos dar um nome pra esse cara, vamos chamar isso de modo de z, o valor absoluto de z. E então, tá aqui, ó, apresentado aqui a definição dele. Então, um modo, o valor absoluto, e o complexo z = x + y é nada mais que a distância dele é a origem. A distância da origem até o ponto de testão que já vimos que se escreve assim. x² + y², √ disso, ou em termos das operações, das funções Re e Im, o x é a Re, então, x ao quadrado. E o y. A Im, y ao quadrado.
+
+Então, com essa com a operação de conjugação e a operação de valores, a definição agora de, de módulo, valor absoluto de um número complexo, conseguimos reescrever várias das, das operações que vimos, uma forma mais simples. Existe uma ligação bem simples entre z, seu conjugado e o seu valor absoluto, que é o que vou mostrar pra vocês agora, chamar a atenção, que é o seguinte, o módulo, o valor absoluto do número z, como falei, está relacionado com z com seu conjugado, dessa, dessa maneira, aqui, ó. Já apaga aqui, fazemos isso de novo.
+
+Aí, é o seguinte, se tomar um número complexo z e multiplicar pelo seu conjugado o que que vou ter? Bom, isso é x + iy que multiplica x - iy. Então, como é o quadrado perfeito, quadrado primeiro, - o quadrado do segundo + i ao quadrado da -1, então isso é + i ao quadrado. Mas isso aqui sabemos que o conjugado de um número, conjugado, um valor absoluto do número complexo é √(x² + y²), isso é a leva todo mundo do número complexo ao quadrado. Isso é raiz, então isso aqui é |z|².
+
+Então, sempre que apareça essa operação z * z̅, já posso substituir por |z|². Ou uma outra maneira de dizer isso é o seguinte, o modo de um número complexo é z * z̅. √ disso. Então, sempre que apareça z * z̅, se tomar √ dessa quantidade, tenho o tamanho do meu número lá, o módulo ou o tamanho do número complexo. É o resultado absoluto, sabe?
+
+Ah, outras, algumas desigualdades importantes, vamos ver outras são essas que coloquei aqui, mas fomos o seguinte, deixa eu mostrar ela novamente para vocês. É o seguinte, era para te deixar você ter apagado. A ideia é o seguinte, sabemos que independentemente de quem for x e y, x² é sempre ≤ que x² + y². Se z é o meu número complexo escrito dessa forma, então sabemos que x é a parte do x, é Re(z). Então, isso aqui está dizendo o seguinte, que Re(z) ao quadrado é ≤ que Re(z), porra. Você que seria Re(z) ao quadrado + a Im(z) ao quadrado, mas temos outro nome para isso. É o valor, é o módulo, o |z|².
+
+Ou ainda, posso dizer o seguinte, estou mandando a raiz de um dos lados, tenho que apagar o valor absoluto. Aqui é o valor absoluto real mesmo. A função é o valor absoluto. É ≤ que estamos usando o mesmo símbolo, pessoal, para duas coisas. Quando tenho um número real, o valor absoluto de x é a função valor absoluto mesmo. Se aqui for um número complexo, isso aqui é definido dessa maneira. Infelizmente, usamos o mesmo símbolo para as duas coisas, mas deve ficar claro pelo contexto que se a quantidade que está aqui dentro for um número real, com essas barras aqui, é a função valor absoluto mesmo, se estão acostumados lá do cálculo, não funciona de variável real. Se o que estiver aqui dentro for um número complexo, por exemplo, então essa operação é o tamanho desse cara e √(x² + 2²). Então, infelizmente, é costume sobrecarregar essa notação, mas acostuma-se por isso.
+
+Ok, então se extrair a √ desse lado, extrair na √ desse outro, chegamos nessa relação aqui. Ou ainda, vou colocar aqui embaixo, não vou ter espaço, isso é a mesma coisa que dizer que esse cara está entre isso e - isso. Por exemplo, se tenho valor absoluto de x - igual a A, isso quer dizer que x está entre -a e a. Assim, show. Então, isso aqui está dizendo que está dizendo que Re(z) de qualquer número complexo está entre o valor absoluto - seu valor absoluto até o seu valor absoluto. Ok? E da mesma forma, chegamos nessa expressão aqui de baixo. E Im(z) também é limitada por - do |z| e + do |z|. Então, será que é algum momento na audiência que vamos usar essas propriedades? Tranquilo?
+
+Ok, então vamos dar para o segmento. Então, bom, agora vou, como falei anteriormente, vamos definir a distância entre dois números complexos. Vamos te voltar aqui para o esquema que tinha antes. Então, como falei, se você olhar para z - w. A diferença desses dois números você tem esse vetor que sai do ponto P aqui até o ponto Q. Você tem esse vetorzinho aqui. E se você calcular o comprimento desse vetorzinho que mostrei aqui para vocês, você tem exatamente a distância do ponto P ao ponto Q. Ou seja, a distância do ponto que é representado pelo número complexo z à distância ao ponto representado pelo número complexo w. Então, vamos definir ali embaixo do revel fácil para lá a distância de z a w, como sendo o tamanho desse segmento que mostrei para vocês agora, seja, o tamanho desse segmento. Você sabe? Então, vamos definir a distância entre dois números complexos dessa maneira.
+
+Então, vamos voltar aqui. Então, está aqui embaixo, ó. Então, vou definir uma função que mede distâncias no plano complexo. Então, ela pega dois números complexos. Essa é a forma de representar isso e retorne o número real. E aí, vou definir a distância entre o número complexo z ao número complexo w, como sendo o valor absoluto da sua diferença.
+
+Então, novamente, se z for x + iy, e w for u - v, perdão, u + iv. Então, se fizer z - w, z - w, o que vou ter? É x, se subtrair a parte real, a parte real, a parte imaginária, a parte imaginária. Então, x - u + i, que multiplica y - v. Então, como é que calculo o tamanho desse cara aqui ao quadrado? O tamanho desse cara ao quadrado é esse cara ao quadrado, mas esse é ao quadrado. Então, fica x - u ao quadrado + iy - v ao quadrado. Bom, se tirar a √ dos dois lados, vou ficar com essa expressão. E isso aqui é o que estamos definido como a distância entre o número complexo z e o número complexo w. Só isso.
+
+Então, temos uma maneira de medir agora distâncias no plano complexo. Então, essa função D que defini aqui, ela é chamada distância ou métrica. Você pode chamar ela assim também. Então, o que vou mostrar para vocês agora são algumas propriedades que há, que essa função distância ou, na verdade, que o valor absoluto. De um número complexo é, as propriedades satisfeitas pelo valor absoluto. É, e tem duas propriedades aqui bastante interessantes, que são as as duas, que vamos usar com bastante frequência mais à frente, e vou fazer a demonstração dela para vocês. De mais deixo como exercício.
+
+Então, dados dois números complexos z e w, vale as seguintes afirmações. Então, |z * w| = |z| * |w|, o modo do quociente, então quociente dos modos. O modo do número complexo e o modo do seu conjugado é o mesmo. E vale essas duas desigualdades importantes que a chamada desigualdade triangular, a primeira aqui. Essa não tem o nome, não, sabe pessoal? Coloquei de desigualdade circular aqui, não tem o nome específico. Se vocês procuram a desigualdade circular no início, não vão encontrar, não. Mas coloquei essa, essa, esse termo, essa tecnologia para essa desigualdade aqui, porque podemos interpretar isso aqui em termos de alguns círculos. Vou mostrar pra vocês já, já, mais à frente.
+
+Então, vou fazer a verificação de alguma dessas propriedades, deixo as demais pra vocês. Então, vamos fazer a verificação dessa primeira e das três últimas. Ok.
+
+Ah, talvez não tenha chamado a atenção na última, desigualdades, pessoal, desigualdades só, só valem para números reais. O módulo de um número complexo é um número real. Tenho como comparar números reais, por exemplo, tenho como comparar 4, IP, pra saber quem é mal que quem. Mas não tenho como comparar dois números complexos, por exemplo, quem é maior, i, ou 1 + i? Qual desses dois números, quem é mal que quem? Esse é maior que esse, esse é maior que esse. Não tenho como comparar. Pessoal, não existe uma ordem, uma relação, chamamos isso de relação de ordem. Não existe uma relação de ordem nos complexos. Você não tem como dizer quem é mal que quem, você não tem como atribuir uma ordem, por exemplo, quem é maior, i, ou -i? Não dá pra saber, pessoal. Não tem como atribuir de maneira, vou ter que colocar isso na lista de exercício, é, na primeira lista de exercício de vocês, vou colocar uma questão, é, onde vocês vão comparar esses conceitos.
+
+Então, sempre quando estou falando de desigualdades aqui, todas as desigualdades aqui só envolvem números reais. Entre números reais é simples, você tem como saber quem é mal que quem, mas entre números complexos não dá. O máximo que você pode fazer é dizer qual número complexo tem módulo maior que o outro, sé? Mas comparar números complexos não dá. Não existe uma relação de ordem, uma relação que possa definir entre números complexos, tá, certo? De forma natural. Podemos criar uma relação de ordem, mais, de forma natural, é que, digamos assim, é, recaia na relação de ordem que temos para números reais, não temos, não, sé? Então, todas as relações que temos aqui, são relações envolvendo números reais, sé? Por isso que podemos falar de desigualdades nesse caso aqui.
+
+Ok, então, vamos ver que essa primeira relação aqui, então, como de costume, vamos supor que quisesse escrever essa forma, que dá para você escrever essa forma, e vamos fazer o produto aqui e aí, tomamos o tamanho desse carinho para ver o que vai dar. Então, z * w, já sabemos que é x + y, que multiplica o + e v. Isso, você multiplicar essas carinhas, o que vamos ter? x, u, - y, v, + y, que multiplica x, v, + y, u.
+
+Agora, quero o valor absoluto desse caso, então, o valor absoluto desse, o valor absoluto desse, o valor absoluto do norma, sé? Então, o valor absoluto do norma do quadrado fica mais fácil. Então, o valor absoluto a norma desse caro do tamanho desse complexo, vai ficar o quê? Como aqui tá o quadrado. Não vamos escrever a √, certo? Vai ficar esse cara ao quadrado, mas esse cara ao quadrado. Então, vai ficar x, u, - y, v, ao quadrado + x, vou colocar um local com q, abrir esses caras e ver o que vai dar, então, deixa eu continuar a quadradicar, então esse aqui vai ficar o quadrado o primeiro, - duas * vezes o primeiro pelo segundo, + o quadrado do segundo. Da mesma forma, outro termo, o quadrado do primeiro, duas * vezes do primeiro pelo segundo, + o quadrado do segundo, sé?
+
+Aqui vamos ver que esse termo com a Sela com esse. Mesma, mesma coisa, e vou falar o seguinte, vou colocar os termos quadrado de evidência, então tenho aqui o x² +, temos o termo que tem o ao quadrado, a, a, cadê, deixa eu ver se está faltando ninguém, esse outro aqui pessoal, o v não, é o, é o, é, não, é esse aqui ó, o quadrado primeiro aqui, duas * vezes o 1º segundo aqui, quadrado desse aqui vai ficar y2 por dois, a v, como vai ver, é o, ok, então se colocar agora o ao quadrado que tem aqui, e aqui em evidência, então o x² + y² que multiplica o ao quadrado, agora vou colocar os termos que tem v² de evidência, certo, tenho aqui a x² v2 + y² v2, ok, e agora se colocar o x + y² de evidência, então isso é x² + y², que multiplica o ao quadrado + v², a, a, mas isso aqui é |z|², e isso aqui é |w|², certo, o volume absoluto, norma, volume absoluto, compre neve, chame como você desejar. Então isso quer dizer o seguinte, que z * w, a norma de z * w², o volume absoluto, é igual ao volume absoluto de |z|², |z|², extrai na √ dos dois lados obtemos o resultado que queríamos, certo, esses caras se inscrevem assim, ok.
+
+A, para a próxima que é desigualdade triangular, a, qual que é que tem esse nome desigualdade triangular, professor, a ideia é o seguinte, se você tem aqui, por exemplo, esse aqui é z e esse cara aqui é w, deixa eu passar w para cá, pronto, então z + w é subjeto aqui, esse aqui é z, esse aqui é w, z + w é esse cara aqui, z + w, o que que é o módulo de z + w, é o comprimento desse, desse segmento de reta aqui, o que que é comprimento de z, comprimento de z é esse carinha aqui, é o tamanho desse segmentozinho de reta aqui e o módulo de w, comprimento de w, comprimento desse carinha, então veja que aqui tem o triângulo, certo, então essa desigualdade triangular tá dizendo o seguinte, que esse lado aqui tem que ser menor que a soma desses dois lados do triângulo, como que vocês estão vendo aí, geometricamente, o que vamos fazer é verificar isso algebraicamente, ok.
+
+Então vamos lá, sempre que você estiver trabalhando com essas operações aqui aqui, pessoal, aqui em volume, volume absoluto, é sempre interessante você começar com um quadrado dela, para evitar ficar trabalhando com raiz, e isso que vamos fazer aqui agora, bom, então, então vamos lá, vamos fazer + w ao quadrado, veja que vou começar com esse cara assim, vou começar com um quadrado dele, certo, vou por definição, se tiver qualquer número complexo, por exemplo, que se, se fizer esse, que se é o quadrado é que se * vezes a norma de que se o valor absoluto dele, certo, então z + w ao quadrado é a mesma coisa que z + w, * vezes o seu conjugado, certo, já viu isso, e sabemos que o conjugado da soma é a soma dos conjugados, então posso escrever isso com z + w e multiplica z conjugado + w conjugado, show, qualquer coisa me pare aí, ok, então isso vai ficar, só distribuir aqui, ficar z * z̅, mas z * z̅ é o conjugado, é o modo de z ao quadrado, já vimos isso também, z * z̅ é |z|², só refrescando o nosso memória, vimos isso aqui, ó, isso é, então z, o valor absoluto de z foi definido, ou pode ser escrito dessa forma, se levar ao quadrado tenho isso, não sei, então onde tiver um número complexo * vezes seu conjugado, o seu tamanho desse cara ao quadrado, a norma dele ao quadrado, o valor absoluto dele ao quadrado, bom, então vamos fazer o uso repetido dessa informação, ok.
+
+Então ficamos com |z|² +, aí aqui agora vou ter z, * vezes z, * vezes z̅ +, é, w * z̅, quando fizer isso com esse, e +, aí quando fizer w com w barra, comprimento do w ao quadrado, é o modo dele ao quadrado, show, pessoal, o nota seguinte, se quiser Re(z), digamos que isso é que número complexo, certo, então posso perguntar pelo, pela Re desse cara, sabe, é o número complexo, então vimos que se tenho Re(z), posso escrever como (z + z̅)/2, vimos isso no início da aula, certo, então como é que fica Re desse número aqui, z +, é, um megabarra, o w barra, vai ficar ele + o seu conjugado, dividido por dois, certo, mas se tomar o conjugado disso aqui, é ele + o conjugado dele, tá aqui o conjugado, se tomar o conjugado desse cara, já vimos o conjugado do produto, é o produto dos conjugados, então vai conjugar aqui e o conjugado do conjugado vai embora, e você fica com isso, que é exatamente essa expressão que tem aqui, a - desse dois, se passar esse dois pra cá, então duas * vezes Re desse número, é exatamente essa quantidade aí, só vou reescrevê-lo, pisando essa informação, então ficou z̅ quadrado, + duas * vezes Re(z) * w barra, + w ao quadrado, comprimento ele ao quadrado, então aqui é um número positivo, aqui é um número positivo, isso aqui pode ser positivo ou negativo, porque Re do número complexa é um número real, o número real pode ser positivo ou negativo, mas sei que esse número com certeza é menor que sua parte positiva, x com certeza é ≤ que o valor absoluto de x, então vou só utilizar essa informação, então esse cara vai ficar ser inscrito assim, o z̅ quadrado, + duas * vezes a parte, colocar assim, valor absoluto da Re, dizer, * vezes w barra, + um menor ao quadrado, ou w ao quadrado, ok, então por que que saiu a igualdade pra desigualdade, porque estou substituindo esse cara por um cara que é maior ou igual a ele, então não posso manter a igualdade, fica a desigualdade, fica aberto do lado de cá, por que esse pedaço aqui é maior ou igual que esse pedaço, os outros são embaixo, ok?
+
+Ok, e já vimos no início da aula que Re, em valor absoluto de um número complexa, é ≤ que o seu módulo, então vou usar isso pra essa expressão aqui, isso quer dizer o seguinte pessoal, que Re(z * w barra) em valor absoluto é ≤ que o módulo de z * w barra, só que o módulo do produto é o produto dos módulos, certo, e sei que o módulo do módulo do conjugado de w é igual ao módulo de w, tá aqui ó, então utilizando essa informação, posso substituir por isso, você sabe, e aí de forma que essa expressão vai ficar ≤ que z̅, + duas * vezes Re vou substituir por isso, então z * w + w quadrado, bom, agora é só notar pessoal que o que acabei de escrever é um quadrado perfeito, você tem um quadrado perfeito, isso é exatamente o valor do solo que diz z + o valor do solo que dá ao quadrado, quadrado primeiro, duas * vezes o meio pelo segundo, + quadrado segundo, então não percam de vídeo porque estamos fazendo aqui não, então o que foi que chegamos até então, chegamos que esse cara ao quadrado é menor igual, vocês não estão vendo meu mouse, esse cara ao quadrado é ≤ que esse cara ao quadrado, certo, vou copiar agora aqui, então z + w ao quadrado é ≤ que |z| + |w| ao quadrado, se extrair a raiz agora chego no resultado que queríamos, você sabe, extraindo a raiz chegamos aqui z + w ao quadrado é ≤ que |z| + |w|, tá representado geometricamente aqui, se z é esse número complexo e w é esse número complexo, z + w é esse aqui, então o tamanho de z + w, que é esse comprimento desse segmento em um vilaio aqui, é menor que a soma desses dois comprimentos, o menor é igual, sabe, quando é que vai ser igual, se esses dois caras foram colinear, se esse aqui estiver na mesma linha, então esse cara que tem que ser a soma desses dois caras, tem que ser igual, sabe, é isso, ó, de novo, do gente que está aqui, esse lá que tu desenha agora, é sempre menor que a soma desses dois, mas se esse pedaço, se esse pedaço tiver só o mesmo segmento reto, se for assim e assim, claro que a soma desses dois caras é igual a esse pedaço, sabe, ok.
+
+Por fim, vamos verificar essa desigualdade aqui que estou chamando de desigualdade circular, sabe, e aí depois fazemos alguns exemplos, então ele quer que verifiquemos isso aqui, que a diferença, o modo da diferença de z, o modo de z - o modo de w, é limitado pela diferença de z a w, ok, como é que fazemos isso? Então a ideia é o seguinte, posso escrever um valor absoluto de z, como sendo valor absoluto de z, - w, mas w, com isso não altero nada, certo? Bom, mas pelo que acabamos de ver, bom, posso pensar isso aqui como um valor absoluto de z, - w, só e aqui com outro número, então, pelo que acabamos de ver, a norma da soma, o valor absoluto da soma desses dois caras é ≤ que isso, mas isso. Estou fazendo é só aplicar o que acabamos de verificar aqui, que a norma da soma é ≤ que a soma da rama. O valor absoluto da soma é ≤ que a soma dos valores absolutos. Estou só considerando isso aqui como uma parcela e isso como a outra, show, o que vou fazer? Vou passar esse cara o outro lado e ficamos o seguinte, que z - valor absoluto de w é ≤ que z - w, certo? Tranquilo? Ok, se trocar agora os papéis de z e w nessa expressão aqui, trocando z por w vou ficar seguindo w - z, aqui vai ficar w - z, certo? É só ter começado com w aqui no início.
+
+Mas a ideia é o seguinte, que tanto faz modo de w - z como modo de z - w, porque geometricamente z - w é a distância de z a w e w - z é a distância de z a w, w a z que é a mesma, pessoal? Então esse cara é a mesma coisa que z - w. Normalmente você consegue mostrar isso rápido, mas vamos admitir isso geometricamente. Ok, então ficamos pro seguinte, se multiplicar essa expressão aqui por -1, fica tudo aqui por -1. A desigualdade aqui inverte. E ficamos com o seguinte, esse cara tá negativo, tá positivo, vou ficar z -, esse cara fica, que era positivo, tá negativo, essa desigualdade inverte e aqui fica - isso. -z - w.
+
+Então o que é o seguinte, vamos juntar essa informação com essa informação. Então aqui tenho o seguinte, que w - z é maior que essa quantia e tenho que, perdão, z - w em modo lembrando essa quantia e que -z - w é menor que essa quantia. Então vou colocar, vou escrever isso da seguinte maneira, olha só, escrever tudo com uma expressão só, bom? De novo, tem z o valor absoluto de z, - valor absoluto de w, ela é ≤ que o valor absoluto de z - w, é limitada superiormente por isso, porém ele é maior que, ó, que -z - w. Então podemos escrever isso como uma desigualdade só. Porque sei que se x está entre -a e a, isso aqui é a mesma coisa que dizer que o valor absoluto de x é ≤ que a. Isso é verdade. Então isso aqui é como se fosse meu x, isso aqui é como se fosse meu a, então o que vamos ter é o seguinte, vamos ter o seguinte, aqui z - w, o valor absoluto disso é ≤ que essa quantia que está aqui, z - w. Quero que verifiquemos desde isso aqui, ó, de, de, aqui, ó, você sabe? Então como que podemos tentar interpretar isso. Tem uma figurinha aqui pra gente perceber.
+
+Então, de novo, aí vou só colocar a expressão que tínhamos lá, lá temos assim, valor absoluto de z - valor absoluto de w, em módulo, essa aqui, essa aqui é só, pessoal, aqui é engraçado, aqui temos as duas notações juntas, isso aqui é a notação do valor absoluto. Porque aqui é um número complexo. Mas uma vez que você calculou isso aqui, isso aqui é um número real, isso aqui é um número real, a diferença do número real é um número real, e agora essa operação daqui fora é valor absoluto mesmo. É valor absoluto do número real. Então aqui temos as duas notações sendo utilizadas de forma simultânea. Então, o que acabamos de verificar aqui, isso é ≤ a isso aqui.
+
+Então como é que interpretamos isso geometricamente? A ideia é o seguinte, ó, deixa eu mudar de cor aqui pra lá, já é pronto. É, digamos que aqui tá o meu vetorzinho, ou o meu número complexo z, se pegar esse cara e girar, se pegar esse carinho aqui e girar, a ponta dele vai desenhar essa circunferência. Contornei aqui pra vocês. Se fizer a mesma coisa pra um w, tá aqui o w, se girar ele, contorno aqui, ó, a ponta dele vai desenhar essa circunferência que acabei de desenhar pra vocês aqui, contornada. Então, w, posso pensar como sendo comprimento desse raio aqui, desse circunterno, e comprimento de z como sendo o raio dessa circunferência maior, tudo bem? E aí olha só, traz esse z pra cima do w aqui, e aí se você fizer z - w, você vai ter esse segmentos em roxo, se concorda? E a distância de w a z é o comprimento desse segmento verde.
+
+Então, o que temos aqui é o seguinte, novamente, z - w é o comprimento desse segmento roxo, perdão, módulo de z - módulo de w é o comprimento desse segmento roxo. Porque esse comprimento tudo em que estou marcando aqui é o valor absoluto de z, que é o raio da circunferência em vermelho. E esse valor que estou marcando pra vocês aqui é o comprimento de w, é o raio dessa circunferência em azul. Então, a diferença dessas duas, desses dois raios, vai dar esse segmento, é o comprimento desse segmento aqui em roxo, tudo bem concorda? Show. E a distância entre w e z é o comprimento desse segmento em verde. Então, o que essa desigualdade tá dizendo é que esses comprimentos em verde, a distância desses dois pontos, o comprimento desse segmento aqui, tem que ser sempre maior igual que a distância desses dois raios, não é certo? É isso que, informalmente, o geometricamente essa desigualdade tá nos dizendo aqui. Vamos fazer muito uso dessa desigualdade e da desigualdade triangular, não é certo?
+
+Deixa eu ver se tenho um exemplo pra gente fazer agora. Exatamente, um exemplo agora onde vamos fazer o uso dessas desigualdades. Então, um exemplo 1, 2, 8, ele diz o seguinte, tenta achar um limitante ou uma cota superior pra essa expressão. O que queremos fazer é o seguinte, quero achar um número que seja sempre maior igual que essa expressão, sempre que |z| seja na verdade igual a 2. Então, queremos limitar essa expressão por cima, se quiser se limitar por baixo, vou mostrar pra vocês as duas formas.
+
+Então, o que ele tá pedindo aqui é o seguinte, tentamos determinar um certo número m, número positivo, número real, tal que esse cara seja sempre maior igual que m, quero limitar ele, termino limitando superior. Ah, mais ou igual não né professor, menor igual. Quero saber, quero achar um limitante superior. Quero saber, esse cara sempre menor igual a quem? Deixa eu ver se é isso mesmo que a questão tá pedindo, termino limitando superior, isso. Quero saber, esse cara sempre menor igual a quem? Então, tem que achar um m, um certo número real aí, e como é que esse cara seja sempre menor que esse m.
+
+Então, primeira coisa você tem que notar é o seguinte, que o valor absoluto dessa expressão é igual ao valor absoluto de 1, porque é 1 dividido pelo valor absoluto desse cara. Então, quero, na verdade, limitar esse cara é limitar esse cara, certo? Então, se achar um limitante pra esse, é o mesmo pra esse. Ok.
+
+Então, como é que vou fazer isso? Vamos fazer isso aqui em partes. Primeiro, vou olhar pro denominador. Olha só, se quero saber qual é o menor valor que esse aqui pode ter, é... Podemos fazer isso da seguinte maneira. Vamos olhar primeiro pro denominador aqui. O denominador é z², z⁴ + 3z² + 2. E esse cara, posso fatorar dessa maneira, sabe? Vocês vão clicar esse cara e vocês vão clicar exatamente esse cara. Então, noto o seguinte, note que z⁴, então, z⁴ + 3z² + 2, em valor absoluto. Isso é igual ao valor absoluto desse cara. Isso é igual ao valor absoluto de (z² + 2) * (z² + 1). E sabemos que o valor absoluto do produto é igual ao produto dos valores absolutos. Então, esse é |z² + 2| * |z² + 1|.
+
+Aí agora, vou usar aquela desigualdade circular aqui e aqui. Olha só, tenho que |z² + 2|, esse cara é ≥ que ||z|² - 2|. Foi exatamente a expressão que acabamos de deduzir aqui, olha só. Valor absoluto da diferença. Pessoal, ali, esse aqui fizemos para a diferença, mas se não faz, sabe? Pode ser por + ou por -, sabe? Na verdade, poderia ter feito as duas ao mesmo tempo. Deixa eu colocar aqui z⁻¹, é ≤ que z⁻¹, sabe? Se você você trocar z⁻¹ por - de w aqui, aqui fila o +. Se você trocar w por - de w aqui, o - de w aqui, olha. Vou fazer isso para vocês perceberem aqui, olha. Menor igual que w por - de w, - com - aqui vai ficar o +, sabe? Só que o valor absoluto do w, o valor absoluto de - de w mesmo, sabe? Porque o valor absoluto de -1 é 1, então, vale isso aqui. Você vai ter uma expressão vale tanto para + quanto para -. Fiz para -, mas agora acabamos de fazer para +. Então, vou usar aqui agora. Vou usar aqui, então, o que estou dizendo é o seguinte, se você tiver |z² + 1|, isso é ≥ que ||z|² - 1|.
+
+Então, para mim, o z aqui é um z², não é um exemplo? E para mim aqui, o w é o 2. Por isso que podemos escrever isso dessa forma. Então, esse cara, posso escrever assim. Da mesma forma, esse carinha, então, |z² + 1|, esse mal é ≥ que |z|² - 1. Ora, mas já vimos que o valor absoluto de z² é igual ao |z|², então, isso fica isso aqui, - o valor absoluto de 2 é 2. E isso aqui fica |z|² - 1. Tranquilo até aqui.
+
+Ora, mas ele tá dizendo o seguinte, que para nós, nesse exemplo aqui em questão, |z| é sempre igual a 2. Então, tenho um número cujo o tamanho dele é sempre 2. Então, se isso é verdade, se usar essa informação aqui agora, como isso aqui é sempre 2, 2² aqui vai ficar 4. E aí, vamos ter o seguinte, 4 - 2 = 2, e aqui vamos ter 4 - 1 = 3. Então, moral da história, isso aqui, que é esse cara, deixa eu colocar aqui embaixo, moral da história, z⁴ + 3z² + 2, então, olha só, como vimos, deixa eu só colocar aqui, z², |z² + 2|, é maior ou igual que essa quantia que é maior ou igual a 2. E |z² + 1|, é maior ou igual que essa quantia, que é maior ou igual a 3. Como vou substituir esses caras? Por caras menores, olha, esse lado é maior que esse, estou substituindo por um menor. Então, esse lado da igualdade tem que ser, vai ficar maior ou igual que o produto desses 2, em dois que vou colocar agora. Então, isso aqui é maior ou igual que 2 * 3 = 6. Então, vou colocar assim, maior ou igual a 6. Portanto, se tomar o inverso dessa relação, portanto, 1/|z⁴ + 3z² + 2|, isso aqui vai ser ≤ que 1/6. Então, esse é o nosso limitante superior.
+
+Então, ficamos com a seguinte informação. Então, ficamos aqui, o valor absoluto, ou seja, essa expressão, |-1/(z⁴ + 3z² + 2)|, não pode ser tudo aqui, assim, isso é ≤ que 1/6.
+
+Se fizer, podemos também determinar o limitante superior aqui. Pra isso aí, queremos fazer a aplicação da desigualdade triangular repetidamente pra o termo que tá aqui em denominador. Como assim? Vai ser muito maneiro. |z⁴ + 3z² + 2|, isso aqui pela desigualdade triangular não é igual que |z|⁴ + 3|z|² + 2. Só que o valor absoluto desse cara é ≤ que o valor absoluto desse cara + z. Então, reaplicando a desigualdade triangular duas * vezes, chegamos aqui, e chegamos aqui, e chegamos aqui, e chegamos aqui, e chegamos aqui, e chegamos aqui, e |z⁴ + 3z² + 2|. Estamos assumindo que |z| é exatamente 2. Então, substituindo aqui, você vai ficar ≤, vai ficar igual. 2⁴ = 16, vou ficar z² aqui, 2⁴, 3 * 4 = 12, + 12, estão 14, + 16 = 30. Chegamos esse resultado aqui.
+
+Ou seja, se tomar um inverso dessa relação, que é o que temos, então 1/|z⁴ + 3z² + 2|, vou colocar assim, se tomar um inverso, inverta a desigualdade, vai ficar ≥ que 1/30. Se colocar o -1 aqui, isso continua sendo verdade. Então, na hora da história, ficamos com o seguinte, |-1/(z⁴ + 3z² + 2)|, isso é sempre maior que 1/30. E é sempre ≤ que 1/6.
+
+Pra terminar, a aula de hoje já tá ficando extensa o vídeo, alguns conjuntos do plano complexo podem ser representados através de expressões que envolvem o valor absoluto. Por exemplo, no exemplo 129, descrevemos que pontos no plano complexo satisfaz essa relação, qual conjunto de pontos que satisfaz essa relação. Quais são os conjuntos de pontos onde |z| = |z - 1|? Podemos fazer isso algebricamente enquanto faz isso geometricamente, vou fazer isso algebricamente, e depois vemos geometricamente, isso quer dizer.
+
+Então, como falei, é sempre bom trabalhar, quando aparecer a expressão que valor absoluto, ou modo, trabalhar com isso ao quadrado, certo? Então, isso aqui é ao quadrado, igual a isso aqui. Ok, então, se escrever z como sendo x + y, então |z|² = x² + y², não é isso? Note que z - y é a mesma coisa que x + y - y. Ou ainda, x +, se colocar o i em evidência, y - 1. E aí, se pegar esse cara aqui ao quadrado, tenho que pegar o modo desse aqui ao quadrado, tenho que pegar o modo desse ao quadrado, que vai ser x². Esse cara ao quadrado + a outra coordenada ao quadrado, só é que vou colocar do lado de cá. Então, ele quer saber quando isso é igual a isso, ou seja, quando esse cara é igual a isso. Ou quando isso aqui é igual a isso. Vou colocar aqui em cima, x² + (y - 1)². Só apagar aqui pra não ficar muito poluído.
+
+Pois bem, agora vamos só abrir os dois termos e ver o que você vai dar. Então, que pontos lá no plano completo satisfaz essa relação aqui? Bom, isso aqui é a mesma coisa que x² + y², o lado x², o tempo vai ficar y² - 2y + 1. Então, x² foi x², y² foi 1². Se passar esse -2y do lado de lá, isso vai ficar 2y = 1 ou y = 1/2. Então, o conjunto dos pontos no plano complexo que satisfazem essa relação, são aqueles pontos que têm a coordenada y sempre iguais a 1/2. Então, os pontos que satisfazem essa relação são os pontos da forma z = x + (1/2)i.
+
+Então, como é que representamos graficamente isso aqui no plano complexo, pessoal? De novo? Como é que representamos isso aqui graficamente? Então, o i, na verdade, a parte imaginária desse número tem que ser sempre meio, e o x pode ser qualquer cara. Então, olha só, digamos que aqui seja meio. Aqui é a parte imaginária, a parte real. Então, quando gravamos x, aqui é a parte imaginária, onde marcamos os y. Então, o meu ponto, obrigatoriamente, tem que estar sobre essa reta aqui, ó, y = 1/2. É porque a coordenada y dele. A Im desse cá tem que ser sempre meio. Então, qualquer ponto sobre essa reta, satisfaz essa relação aqui. Então, mora da história, mora da história. Essa relação aqui descreve uma reta, que chama essa reta de L. Que divide esse... que passa exatamente no meio entre z = 0 e z = 1. Tem aquela representada aqui melhor. Então, qualquer ponto sobre essa reta aqui em L, satisfaz essa condição.
+
+A distância, geometricamente, isso quer dizer o seguinte, pessoal, a distância de... Vou dar aqui de cor, lá, acho. A distância, o que é que é o módulo de z? Módulo de z, posso pensar como a distância de z é a origem. por exemplo, se pensar nesse z aqui, com a distância desse cara, a origem. Esse segmento aqui, certo? E z - i, posso pensar como a distância de z ao ponto i. E tá aqui. Então, a distância de z é esse cara aqui, certo? Então, o conjunto de pontos que satisfaz essa igualdade aqui, são esses caras que estão sobre essa reta ali lá, vocês concordam? Porque, por exemplo, vou mudar de novo de cor. Se pegar esse ponto aqui, é essa distância daqui pra cá, igual essa distância daqui pra cá. Então, todos os pontos que estão sobre essa reta em L satisfaz essa condição.
+
+Só mais um pra gente terminar. Descrevemos conjunto de pontos representados por essa relação. São os pontos onde o seu tamanho é sempre igual a 2. Que foi uma informação que utilizamos no resultado, no exemplo anterior. Anterior a isso que acabamos de fazer agora. Então, quais são esses pontos que satisfaz essa condição? Quais são esses pontos que utilizamos lá no exemplo, se não me engano, 1.2.8? Então, quem são esses pontos? Esses pontos estão sobre que curva podemos pensar assim. Bom, vamos ver.
+
+Então, novamente, sempre que tivermos expressões envolvendo o valor absoluto, é bom quadrarmos isso. Então, de novo, |z| = 2, é a mesma coisa que |z|² = 4. Ora, + o valor absoluto de z, sabemos que é √(x² + y²). Se tomar isso aqui ao quadrado. Vai cancelar a raiz. Então, é ficar assim, x² + y² = 4. Então, que conjunto de pontos é esse no plano que tenho que satisfaz essa condição? E se vai me dar o quê, pessoal? Um círculo de raio 2 centrado na origem. Se você olhar direitinho, um conjunto de pontos que satisfaz essa informação, vai te dar um círculo de raio 2 centrado na origem. Eu acho que tenho esse desenho feito aqui melhor. Pronto, aqui. Então, qualquer ponto que você pegar aqui sobre esse círculo, por exemplo, a distância da origem é esse cara 2. Que simbolizamos assim. |z| = 2.
+
+Mas por quê, professor? Lembra que definimos a distância de z ao número complexo w como sendo |z - w|? Não foi assim? Ok, só que se pegar z... Perdão, se pegar w como a origem. Que é o número complexo 0 + 0i, ou se você preferir 0, 0. Então, a distância de z a 0 é o valor de z, |z - 0| + z - 0 = z. Então, posso pensar em um valor absoluto de z como sendo a distância de z a origem. E ele quer que isso seja sempre 2. Então, geograficamente, era fácil perceber que esse conjunto tinha que ser essa circunferência. Porque a circunferência é o conjunto de pontos que dista um valor fixo, em relação a um ponto dado. Então, quais são o conjunto dos pontos que distam 2 da origem? Tem que ser essa diferença centrada na origem de raio 2. Tranquilo?
+
+Então, vamos ficando por aqui. Na próxima aula, vamos ver mais... Vamos ver a representação polar do número complexo. E nessa ocasião, vou poder dar uma interpretação geométrica do produto, de dois números complexos. Vimos que a soma dos números complexos pode ser interpretada como a soma virtual, a lei do paralelogramo para encontrarmos que é z + w. E z * w, como é que podemos representar isso geométricamente? Então, na próxima aula, vamos ver como é que representamos isso geométricamente ou interpretamos isso geométricamente, uma vez que tenhamos a forma polar do número complexo. Beleza.

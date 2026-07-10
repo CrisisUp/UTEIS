@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Video files (mantenha apenas se não quiser versionar)
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Output files
+*_cortado*.mp4
+output/
+temp/
+
+# Config with sensitive data
+*.local
+*.secret
+
+# Logs
+*.log

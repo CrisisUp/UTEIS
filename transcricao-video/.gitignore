@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Logs
+*.log
+data/logs/
+logs/
+
+# Virtual Environment
+venv/
+env/
+.venv
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+videos/output/
+videos/input/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.m4a
+*.wav
+*.mp3
+temp/
+tmp/
+*.txt  # Se não quiser versionar os arquivos de transcrição
+
+# Config
+.env
+*.local
+
+# Cache
+.cache/
+*.pyc
+__pycache__/
+
+# Lock file
+# uv.lock  # Descomente se não quiser versionar

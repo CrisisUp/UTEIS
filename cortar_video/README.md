@@ -130,7 +130,7 @@ uv venv
 .venv\Scripts\activate
 
 # Instale as dependências
-uv pip install moviepy==1.0.3
+uv pip install moviepy==2.2.1
 
 # Execute o programa
 python cortar_video.py
